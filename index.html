@@ -499,7 +499,7 @@
                 
                 // Function to submit feedback to Supabase via n8n webhook
                 function submitFeedbackToSupabase(feedbackData) {
-                    const webhookUrl = 'https://fluxxx.app.n8n.cloud/webhook-test/5b322439-d37f-4ae1-88e6-878e3af43fbe';
+                    const webhookUrl = 'https://fluxxx.app.n8n.cloud/webhook/e3df8c17-eded-4a57-a750-b804b31efaac';
                     
                     // Format data to match database schema
                     const formattedData = {
@@ -753,9 +753,9 @@
                 
                 function submitReportToWebhook(reportData) {
                     // Primary webhook URL
-                    const primaryWebhookUrl = 'https://fluxxx.app.n8n.cloud/webhook-test/e3df8c17-eded-4a57-a750-b804b31efaac';
+                    const primaryWebhookUrl = 'https://fluxxx.app.n8n.cloud/webhook/e3df8c17-eded-4a57-a750-b804b31efaac';
                     // Backup webhook URL (use the same for now, but you can change to a different one if needed)
-                    const backupWebhookUrl = 'https://fluxxx.app.n8n.cloud/webhook-test/e3df8c17-eded-4a57-a750-b804b31efaac';
+                    const backupWebhookUrl = 'https://fluxxx.app.n8n.cloud/webhook/e3df8c17-eded-4a57-a750-b804b31efaac';
                     
                     // Start with the primary URL
                     let webhookUrl = primaryWebhookUrl;
@@ -1237,7 +1237,7 @@
                   // Function to submit a single domain assessment to Supabase
                   function submitSingleDomainToSupabase(domainData) {
                       // N8n webhook URL - replace with your actual n8n webhook URL
-                      const webhookUrl = 'https://fluxxx.app.n8n.cloud/webhook/5b322439-d37f-4ae1-88e6-878e3af43fbe';
+                      const webhookUrl = 'https://fluxxx.app.n8n.cloud/webhook/e3df8c17-eded-4a57-a750-b804b31efaac';
                       
                       // Format data to match database schema
                       const formattedData = {
